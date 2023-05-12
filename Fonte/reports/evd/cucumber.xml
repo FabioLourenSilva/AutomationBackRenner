@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="10" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="17.633">
+<testcase classname="Renner BR Shipping Fron Store" name="Entregue total Transportador" time="7.544">
+<failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError"><![CDATA[Given Cotação no Broker.....................................................failed
+And Realiza Criação da order................................................skipped
+When Aprova Pedido..........................................................skipped
+And Cria onde Picking.......................................................skipped
+And Atualiza onda Picking...................................................skipped
+And Cria onda Packing.......................................................skipped
+And Finaliza onda de Packing................................................skipped
+And Informa faturamento do pedido...........................................skipped
+And Libera pedido para retirada.............................................skipped
+And Entrega orden Cliente...................................................skipped
+And Entrega orden Cliente...................................................skipped
+Then Consulta dados pedido: ENTREGUE_TOTAL_TRANSPORTADOR....................skipped
+
+StackTrace:
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at br.com.renner.Requests.Broker.brokerDeliveryCart(Broker.java:28)
+	at br.com.renner.Steps.BrokerSteps.brokerDeliveryCart(BrokerSteps.java:13)
+	at ✽.Cotação no Broker(file:///C:/Users/carlos.soares/Desktop/AutomaçãoRennerBR/oms-backend-service-automation/Fonte/src/test/resources/features/RennerBr.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="Renner BR Shipping Fron Store" name="Cancelado não Localizado" time="1.056">
+<failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError"><![CDATA[Given Cotação no Broker.....................................................failed
+And Realiza Criação da order................................................skipped
+When Aprova Pedido..........................................................skipped
+And Cria onde Picking.......................................................skipped
+And Atualiza onda Picking para Cancelado Não Localizado.....................skipped
+Then Consulta dados pedido: CANCELADO_NAO_LOCALIZADO........................skipped
+
+StackTrace:
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at br.com.renner.Requests.Broker.brokerDeliveryCart(Broker.java:28)
+	at br.com.renner.Steps.BrokerSteps.brokerDeliveryCart(BrokerSteps.java:13)
+	at ✽.Cotação no Broker(file:///C:/Users/carlos.soares/Desktop/AutomaçãoRennerBR/oms-backend-service-automation/Fonte/src/test/resources/features/RennerBr.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="Renner BR Shipping Fron Store" name="Cancelamento Commerce" time="1.08">
+<failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError"><![CDATA[Given Cotação no Broker.....................................................failed
+And Realiza Criação da order................................................skipped
+When Realiza cancelamento do pedido Commerce................................skipped
+Then Consulta dados pedido: CANCELADO.......................................skipped
+
+StackTrace:
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at br.com.renner.Requests.Broker.brokerDeliveryCart(Broker.java:28)
+	at br.com.renner.Steps.BrokerSteps.brokerDeliveryCart(BrokerSteps.java:13)
+	at ✽.Cotação no Broker(file:///C:/Users/carlos.soares/Desktop/AutomaçãoRennerBR/oms-backend-service-automation/Fonte/src/test/resources/features/RennerBr.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="Renner BR Shipping Fron Store" name="Reatendimento por Loja Commerce" time="1.037">
+<failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError"><![CDATA[Given Cotação no Broker.....................................................failed
+And Realiza Criação da order................................................skipped
+When Aprova Pedido..........................................................skipped
+And Cria onde Picking.......................................................skipped
+And Atualiza onda Picking...................................................skipped
+And Cria onda Packing.......................................................skipped
+And Finaliza onda de Packing................................................skipped
+And Informa faturamento do pedido...........................................skipped
+And Libera pedido para retirada.............................................skipped
+And Entrega orden Cliente...................................................skipped
+And Entrega orden Cliente...................................................skipped
+Then Consulta dados pedido: ENTREGUE_TOTAL_TRANSPORTADOR....................skipped
+
+StackTrace:
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at br.com.renner.Requests.Broker.brokerDeliveryCart(Broker.java:28)
+	at br.com.renner.Steps.BrokerSteps.brokerDeliveryCart(BrokerSteps.java:13)
+	at ✽.Cotação no Broker(file:///C:/Users/carlos.soares/Desktop/AutomaçãoRennerBR/oms-backend-service-automation/Fonte/src/test/resources/features/RennerBr.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="Renner BR Shipping Fron Store" name="Reatendimento por Ecomerce" time="1.053">
+<failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError"><![CDATA[Given Cotação no Broker.....................................................failed
+And Realiza Criação da order................................................skipped
+When Aprova Pedido..........................................................skipped
+And Cria onde Picking.......................................................skipped
+And Atualiza onda Picking...................................................skipped
+And Cria onda Packing.......................................................skipped
+And Finaliza onda de Packing................................................skipped
+And Informa faturamento do pedido...........................................skipped
+And Libera pedido para retirada.............................................skipped
+And Entrega orden Cliente...................................................skipped
+And Entrega orden Cliente...................................................skipped
+Then Consulta dados pedido: ENTREGUE_TOTAL_TRANSPORTADOR....................skipped
+
+StackTrace:
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at br.com.renner.Requests.Broker.brokerDeliveryCart(Broker.java:28)
+	at br.com.renner.Steps.BrokerSteps.brokerDeliveryCart(BrokerSteps.java:13)
+	at ✽.Cotação no Broker(file:///C:/Users/carlos.soares/Desktop/AutomaçãoRennerBR/oms-backend-service-automation/Fonte/src/test/resources/features/RennerBr.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="Renner BR Shipping Fron Store" name="Cancelamento Paking" time="1.1">
+<failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError"><![CDATA[Given Cotação no Broker.....................................................failed
+And Realiza Criação da order................................................skipped
+When Aprova Pedido..........................................................skipped
+And Cria onde Picking.......................................................skipped
+And Atualiza onda Picking...................................................skipped
+And Cria onda Packing.......................................................skipped
+And Realiza cancelamento no Paking..........................................skipped
+Then Consulta dados pedido: LOCALIZADO_TOTAL................................skipped
+
+StackTrace:
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at br.com.renner.Requests.Broker.brokerDeliveryCart(Broker.java:28)
+	at br.com.renner.Steps.BrokerSteps.brokerDeliveryCart(BrokerSteps.java:13)
+	at ✽.Cotação no Broker(file:///C:/Users/carlos.soares/Desktop/AutomaçãoRennerBR/oms-backend-service-automation/Fonte/src/test/resources/features/RennerBr.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="Renner BR Shipping Fron Store" name="Cancelamento Piking" time="0.995">
+<failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError"><![CDATA[Given Cotação no Broker.....................................................failed
+And Realiza Criação da order................................................skipped
+When Aprova Pedido..........................................................skipped
+And Cria onde Picking.......................................................skipped
+And Realiza cancelamento no Pinking.........................................skipped
+Then Consulta dados pedido: NOVO............................................skipped
+
+StackTrace:
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at br.com.renner.Requests.Broker.brokerDeliveryCart(Broker.java:28)
+	at br.com.renner.Steps.BrokerSteps.brokerDeliveryCart(BrokerSteps.java:13)
+	at ✽.Cotação no Broker(file:///C:/Users/carlos.soares/Desktop/AutomaçãoRennerBR/oms-backend-service-automation/Fonte/src/test/resources/features/RennerBr.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="Renner BR Shipping Fron Store" name="Realiza devolução cliente para loja" time="1.005">
+<failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError"><![CDATA[Given Cotação no Broker.....................................................failed
+And Realiza Criação da order................................................skipped
+When Aprova Pedido..........................................................skipped
+And Cria onde Picking.......................................................skipped
+And Atualiza onda Picking...................................................skipped
+And Cria onda Packing.......................................................skipped
+And Finaliza onda de Packing................................................skipped
+And Informa faturamento do pedido...........................................skipped
+And Libera pedido para retirada.............................................skipped
+And Entrega orden Cliente...................................................skipped
+And Entrega orden Cliente...................................................skipped
+And Realiza devolução na entrega............................................skipped
+Then Consulta dados pedido: DEVOLVIDO_CLIENTE_LOJA..........................skipped
+
+StackTrace:
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at br.com.renner.Requests.Broker.brokerDeliveryCart(Broker.java:28)
+	at br.com.renner.Steps.BrokerSteps.brokerDeliveryCart(BrokerSteps.java:13)
+	at ✽.Cotação no Broker(file:///C:/Users/carlos.soares/Desktop/AutomaçãoRennerBR/oms-backend-service-automation/Fonte/src/test/resources/features/RennerBr.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="Renner BR Shipping Fron Store" name="Pendente Geração Nota" time="1.005">
+<failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError"><![CDATA[Given Cotação no Broker.....................................................failed
+And Realiza Criação da order................................................skipped
+When Aprova Pedido..........................................................skipped
+And Cria onde Picking.......................................................skipped
+And Atualiza onda Picking...................................................skipped
+And Cria onda Packing.......................................................skipped
+And Finaliza onda de Packing................................................skipped
+And Torna pedido pendente geração nota no OMS...............................skipped
+Then Consulta dados pedido: PENDENTE_GERACAO_NOTA...........................skipped
+
+StackTrace:
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at br.com.renner.Requests.Broker.brokerDeliveryCart(Broker.java:28)
+	at br.com.renner.Steps.BrokerSteps.brokerDeliveryCart(BrokerSteps.java:13)
+	at ✽.Cotação no Broker(file:///C:/Users/carlos.soares/Desktop/AutomaçãoRennerBR/oms-backend-service-automation/Fonte/src/test/resources/features/RennerBr.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="Renner BR Shipping Fron Store" name="Pendente Impressão Nota" time="0.928">
+<failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError"><![CDATA[Given Cotação no Broker.....................................................failed
+And Realiza Criação da order................................................skipped
+When Aprova Pedido Impressao Nota...........................................skipped
+And Cria onde Picking.......................................................skipped
+And Atualiza onda Picking...................................................skipped
+And Cria onda Packing.......................................................skipped
+And Finaliza onda de Packing................................................skipped
+And Torna pedido pendente impressão nota....................................skipped
+Then Consulta dados pedido: PENDENTE_IMPRESSAO_NOTA.........................skipped
+
+StackTrace:
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at br.com.renner.Requests.Broker.brokerDeliveryCart(Broker.java:28)
+	at br.com.renner.Steps.BrokerSteps.brokerDeliveryCart(BrokerSteps.java:13)
+	at ✽.Cotação no Broker(file:///C:/Users/carlos.soares/Desktop/AutomaçãoRennerBR/oms-backend-service-automation/Fonte/src/test/resources/features/RennerBr.feature:4)
+]]></failure>
+</testcase>
+</testsuite>

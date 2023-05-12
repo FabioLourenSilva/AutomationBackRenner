@@ -1,0 +1,188 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.br.rennerframework</groupId>
+	<artifactId>com.br.rennerframework</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M3</version>
+				<configuration>
+					<argLine>-Dfile.encoding=UTF-8</argLine>
+					<includes>
+						<include>**/RunnerRennerBRTest.java</include>
+					</includes>
+					<testFailureIgnore>false</testFailureIgnore>
+<!--					<parallel>classesAndMethods</parallel>-->
+<!--					<useUnlimitedThreads>false</useUnlimitedThreads>-->
+<!--					<perCoreThreadCount>false</perCoreThreadCount>-->
+<!--					<threadCount>3</threadCount>-->
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+
+	<!--	<build>-->
+<!--		<resources>-->
+<!--			<resource>-->
+<!--				<directory>src/test/resources</directory>-->
+<!--				<filtering>true</filtering>-->
+<!--			</resource>-->
+<!--		</resources>-->
+
+<!--		<pluginManagement>-->
+<!--			<plugins>-->
+<!--				<plugin>-->
+<!--					<groupId>org.apache.maven.plugins</groupId>-->
+<!--					<artifactId>maven-surefire-plugin</artifactId>-->
+<!--					<version>2.22.1</version>-->
+<!--					<configuration>-->
+<!--        				<testFailureIgnore>false</testFailureIgnore>-->
+<!--    				</configuration>	-->
+<!--				</plugin>-->
+<!--			</plugins>-->
+<!--		</pluginManagement>-->
+
+<!--	</build>-->
+
+	<dependencies>
+
+
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest</artifactId>
+			<version>2.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>4.0.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.12.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>json-path</artifactId>
+			<version>4.0.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>json-schema-validator</artifactId>
+			<version>4.3.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20180813</version>
+		</dependency>
+
+<!--		<dependency>-->
+<!--			<groupId>org.junit.jupiter</groupId>-->
+<!--			<artifactId>junit-jupiter-engine</artifactId>-->
+<!--			<version>5.5.2</version>-->
+<!--		</dependency>-->
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.maven</groupId>
+			<artifactId>maven-plugin-api</artifactId>
+			<version>3.6.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-library</artifactId>
+			<version>2.2</version>
+		</dependency>
+
+<!--		<dependency>-->
+<!--			<groupId>org.testng</groupId>-->
+<!--			<artifactId>testng</artifactId>-->
+<!--			<version>7.4.0</version>-->
+<!--			<scope>test</scope>-->
+<!--		</dependency>-->
+
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>4.1.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>7.4.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>7.4.1</version>
+		</dependency>
+
+<!--		<dependency>-->
+<!--			<groupId>io.cucumber</groupId>-->
+<!--			<artifactId>cucumber-junit</artifactId>-->
+<!--			<version>6.11.0</version>-->
+<!--			<scope>test</scope>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>io.cucumber</groupId>-->
+<!--			<artifactId>cucumber-java</artifactId>-->
+<!--			<version>6.11.0</version>-->
+<!--		</dependency>-->
+
+	</dependencies>
+
+	<profiles>
+		<profile>
+			<id>run-test</id>
+			<properties>
+				<test.ambiente>dev</test.ambiente>
+			</properties>
+		</profile>
+	</profiles>
+</project>

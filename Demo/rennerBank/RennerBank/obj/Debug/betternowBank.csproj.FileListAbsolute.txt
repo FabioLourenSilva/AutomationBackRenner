@@ -1,0 +1,11 @@
+D:\Showroom\Demo\betternowBank\betternowBank\bin\Debug\betternowBank.exe.config
+D:\Showroom\Demo\betternowBank\betternowBank\bin\Debug\betternowBank.exe
+D:\Showroom\Demo\betternowBank\betternowBank\bin\Debug\betternowBank.pdb
+D:\Showroom\Demo\betternowBank\betternowBank\obj\Debug\betternowBank.csprojAssemblyReference.cache
+D:\Showroom\Demo\betternowBank\betternowBank\obj\Debug\betternowBank.FLogin.resources
+D:\Showroom\Demo\betternowBank\betternowBank\obj\Debug\betternowBank.Fsaldo.resources
+D:\Showroom\Demo\betternowBank\betternowBank\obj\Debug\betternowBank.Properties.Resources.resources
+D:\Showroom\Demo\betternowBank\betternowBank\obj\Debug\betternowBank.csproj.GenerateResource.cache
+D:\Showroom\Demo\betternowBank\betternowBank\obj\Debug\betternowBank.csproj.CoreCompileInputs.cache
+D:\Showroom\Demo\betternowBank\betternowBank\obj\Debug\betternowBank.exe
+D:\Showroom\Demo\betternowBank\betternowBank\obj\Debug\betternowBank.pdb

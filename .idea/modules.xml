@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/FrameRenner.iml" filepath="$PROJECT_DIR$/.idea/FrameRenner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fonte/com.br.rennerframework.iml" filepath="$PROJECT_DIR$/Fonte/com.br.rennerframework.iml" />
+    </modules>
+  </component>
+</project>
